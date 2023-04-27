@@ -52,6 +52,27 @@ export default function Index() {
                     />
                 </video>
             </section>
+            <section className="events">
+                <div class="icon-container">
+                    <img src="/img/icons/Grupo54.svg" alt="My Icon" />
+                </div>
+                <div className="h2-container">
+                    <h2>Events</h2>
+                </div>
+
+                <div className="container--4-cols">
+                    <img src="/img/events/1.jpg" />
+                    <img src="/img/events/2.jpg" />
+                    <img src="/img/events/3.jpg" />
+                    <img src="/img/events/4.jpg" />
+                </div>
+                <div className="cta-container">
+                    <a className="cta">MORE EVENTS</a>
+                </div>
+                <p className="p-events">
+                    Let's have fun, join us in our events. Find out more here.
+                </p>
+            </section>
         </div>
     );
 }
